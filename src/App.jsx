@@ -1,11 +1,11 @@
-import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
     return (
-        <div className='h-[100vh] flex-center'>
-            <h1 className="text-7xl">Hello, GSAP !</h1>
-        </div>
+        <main>
+            <Navbar />
+        </main>
     )
 }
 
