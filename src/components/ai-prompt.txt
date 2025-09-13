@@ -1,0 +1,2 @@
+Create a GSAP timeline that animates the video 
+as the user scrolls though the page.
