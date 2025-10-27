@@ -5,6 +5,7 @@ import Art from './components/Art'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import gsap from 'gsap'
 import Cocktails from './components/Cocktails';
+import Menu from './components/Menu'
 
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -18,6 +19,7 @@ function App() {
             <Cocktails />
             <About />
             <Art />
+            <Menu />
         </main>
     )
 }
